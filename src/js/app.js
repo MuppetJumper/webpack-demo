@@ -1,3 +1,4 @@
+var $ = require('jquery');
 import shout from './shout';
 import '../css/main.css';
 
