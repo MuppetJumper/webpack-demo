@@ -1,3 +1,3 @@
-export default function shoutMyName() {
-  console.log("My Name!!!!");
+export default function shoutMyName(name) {
+  return (name + '!!!');
 }

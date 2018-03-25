@@ -2,5 +2,7 @@ var $ = require('jquery');
 import shout from './shout';
 import '../css/main.css';
 
-console.log("Hello Webpack");
-shout();
+$(document).ready(function () {
+  let outputParagraph = $("#outputParagraph");
+  $("#outputParagraph").text(shout('Yuval'));  
+});
