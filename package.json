@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "test",
-    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js -d",
-    "build:prod": "webpack src/js/app.js --output dist/bundle.js -p"
+    "build": "webpack-dev-server -d",
+    "build:prod": "webpack -p"
   },
   "repository": {
     "type": "git",
