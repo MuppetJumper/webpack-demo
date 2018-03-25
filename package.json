@@ -4,7 +4,8 @@
   "description": "Webpack Demo Tutorial",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack src/js/app.js dist/bundle.js"
   },
   "repository": {
     "type": "git",
